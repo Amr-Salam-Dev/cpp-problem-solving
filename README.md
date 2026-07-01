@@ -2,12 +2,27 @@
 
 I am currently learning C++ and problem solving.
 
-## Skills Learned
-✔ Variables & Data Types  
-✔ Input / Output  
-✔ Mathematical Problems  
-✔ Geometry Calculations  
-✔ pow() and sqrt() functions  
+# C++ Problem Solving
+
+This repository contains my C++ problem solving practice.
+
+## Topics
+- Basics
+- Conditions
+- Loops
+- Functions
+- Arrays
+- Strings
+- OOP
+- STL
+
+## Solved Problems
+- Problem 33 - Grades
+- Problem 34 - Sales Bonus
+- Problem 36 - Calculator
+- Problem 44 - Days of Week
+- Problem 45 - Months
+
 
 ## Current Focus
 - Problem Solving
