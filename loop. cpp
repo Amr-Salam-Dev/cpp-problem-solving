@@ -1,0 +1,66 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+// problem num 26  loob c++
+//int main() {
+//	for (int i = 1; i <= 10; i++) {
+//		cout << i << endl;
+//	}
+//	return 0;
+//}
+
+// problem num 27  loob c++
+//int main() {
+//	for (int i = 10; i >= 1; i--) {
+//		cout << i << endl;
+//	}
+//	return 0;
+//}
+
+// problem num 28  loob c++
+//int main() {
+//	int sum = 0;
+//	for (int i = 1; i <= 10; i += 2) {
+//		sum += i;
+//	}
+//	cout << "sum= " << sum << endl;
+//	return 0;
+//}
+//int main() {
+//	int sum = 0;
+//	for (int i = 1; i <= 10; i++) {
+//		if (i % 2 != 0) {
+//			sum += i;
+//		}
+//	}
+//	cout << "sum = " << sum << endl;
+//	return 0;
+//	}
+
+// problem num 29  loob c++
+//int main() {
+//	int sum = 0;
+//	for (int i = 1; i <= 10; i++) {
+//		if (i % 2 == 0) {
+//			sum += i;
+//		}
+//	}
+//	cout << "sum = " << sum << endl;
+//	return 0;
+//}
+
+// problem num 30  loob c++
+//int main() {
+//	int N;
+//	int fact = 1;
+//	cout << "Enter Positive + number: " << endl;
+//	cin >> N;
+//	for (int i = 1; i <= N; i++) {
+//		fact = fact * i;
+//	}
+//	cout << "factorial = " << fact << endl;
+//	return 0;
+//}
