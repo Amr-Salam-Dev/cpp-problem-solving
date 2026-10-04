@@ -1,0 +1,152 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// soloution 1 priant your name ;
+//void PrintName(string Name)
+//{
+//	cout << "\n Your Name Is : \n" << Name << endl;
+//
+//}
+//int main()
+//{
+//	PrintName("AMR Salam");
+//	return 0;
+//}
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// Solution 2 Read Name and print It;
+//string ReadName()
+//{
+//	string Name;
+//	cout << "Please enter your name : " << endl;
+//	getline(cin, Name);
+//	return Name;
+//}
+//void PrintName(string Name)
+//{
+//	cout << "\n Your Name Is : \n" << Name << endl;
+//}
+//int main()
+//{
+//	string Name = ReadName();
+//	PrintName(Name);
+//	return 0;
+//}
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// solution 3 check Odd or Even;
+
+//enum enNumberType { Odd = 1, Even =2 };
+//int ReadNumber()
+//{
+//	int Num;
+//
+//	cout << "Please enter your number : " << endl;
+//	cin >> Num;
+//	return Num;
+//}
+//enNumberType CheckNumberType(int Num)
+//{
+//	int Result = Num % 2;
+//	if (Result == 0)
+//		return enNumberType::Even;
+//	else
+//		return enNumberType::Odd;
+//}
+//void PrintNumberType(enNumberType enNumberType)
+//{
+//	if (enNumberType == enNumberType::Even)
+//		cout << "\n Number Is Even \n";
+//	else
+//		cout << "\ Number Is Odd \n";
+//}
+//int main()
+//{
+//	PrintNumberType(CheckNumberType(ReadNumber()));
+//	
+//	return 0;
+//}
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// solution 4 enter his/her age and driver license;
+
+//struct stInfo
+//{
+//	int Age;
+//	bool HasDriverLicense;
+//};
+//
+//stInfo ReadInfo()
+//{
+//	stInfo Info;
+//	cout << "Please enter your age : " << endl;
+//	cin >> Info.Age;
+//
+//	cout << "Do you have a driver license? (1 for Yes, 0 for No): " << endl;
+//	cin >> Info.HasDriverLicense;
+//	return Info;
+//}
+//bool IsAccepted(stInfo Info)
+//{
+//	return (Info.Age > 21 && Info.HasDriverLicense);
+//
+//}
+//void PrintResult(stInfo Info)
+//{
+//	if (IsAccepted(Info))
+//		cout << "\n Accepted \n";
+//	else
+//		cout << "\n Not Accepted \n";
+//}
+//
+//int main() {
+//
+//	PrintResult(ReadInfo());
+//
+//	return 0;
+//}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+// solution 5 hire a driver case 2
+
+struct stInfo
+{
+	int Age;
+	bool hasdriverlicensse;
+	bool hasrecommendation;
+};
+stInfo ReadInfo()
+{
+	stInfo Info;
+	cout << "Please enter Your Age : " << endl;
+	cin >> Info.Age;
+	cout << "Do you have driver License ? (1 for Yes, 0 for No): " << endl;
+	cin >> Info.hasdriverlicensse;
+	cout << "Do you have recommendation ? (1 for Yes, 0 for No): " << endl;
+	cin >> Info.hasrecommendation;
+	return Info;
+}
+bool IsAccepted(stInfo Info)
+{
+	if (Info.hasrecommendation)
+	{
+		return true;
+	}
+	else
+	{
+		return (Info.Age > 21 && Info.hasdriverlicensse);
+	}
+
+}
+void PrintResult(stInfo Info)
+{
+	if (IsAccepted(Info))
+		cout << "\n Accepted \n";
+	else
+		cout << "\n Not Accepted \n";
+}
+int main() {
+	PrintResult(ReadInfo());
+	return 0;
+}
+
+/////////////////////////////////////////////,,,....,,,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
